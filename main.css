@@ -1,0 +1,51 @@
+/* .bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+} */
+body{
+    background-image: url(IndianIdol2024.jpg);
+    background-size: 100% 100%;
+    opacity: 0.9;
+}
+.main{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    background-color: rgb(34, 33, 109);
+}
+.heading{
+    /* margin-top: 20px; */
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    /* line-height: 10px; */
+}
+.form > input{
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border-radius: 10%; */
+    display:block ;
+    padding: 10px;
+}
+.form > textarea{
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border-radius: 10%; */
+    display:block ;
+}
+/* button{
+    height: 50px;
+} */
+button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+.success{
+    color:green;
+    background-color: gray;
+}
